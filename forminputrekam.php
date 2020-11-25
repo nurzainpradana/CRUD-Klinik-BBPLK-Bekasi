@@ -20,7 +20,7 @@
                 <option value="<?= $r['nopasien'] ?>"> <?= $r['namapasien'] ?></option>
 
                 <?php } ?>
-            </select>
+            </select></td>
         </tr>
 
         <tr>
@@ -35,6 +35,7 @@
 
                 <?php } ?>
             </select>
+            </td>
         </tr>
 
         <tr>
