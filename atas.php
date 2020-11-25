@@ -12,6 +12,6 @@
         <h2><b>KLINIK BBPLK BEKASI</b></h2>
         <a href="pasien.php">Pasien</a> | 
         <a href="dokter.php">Dokter</a> | 
-        <a href="pasien.php">Rekam Medis</a>
+        <a href="rekam.php">Rekam Medis</a>
     <hr>
         
