@@ -1,7 +1,7 @@
 <?php
 include('koneksi.php');
 
-$nopasien = $_POST['nopasien'];
+$nopasien = $_POST['id'];
 $namapasien = $_POST['namapasien'];
 $jk = $_POST['jk'];
 $tgl_lahir = $_POST['tgl_lahir'];

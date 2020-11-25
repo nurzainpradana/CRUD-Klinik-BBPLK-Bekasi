@@ -21,7 +21,7 @@ echo "
             <td>$no</td>
             <td>$r[nopasien]</td>
             <td>$r[namapasien]</td>
-            <td><a href='formupdatepasien.php?nopasien=$r[nopasien]'> Update </a> | <a href='hapuspasien.php?nopasien=$r[nopasien]'> Hapus </a></td>
+            <td><a href='formupdatepasien.php?id=$r[nopasien]'> Update </a> | <a href='hapuspasien.php?nopasien=$r[nopasien]'> Hapus </a></td>
         </tr>";
         $no++;
     }
