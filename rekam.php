@@ -20,7 +20,7 @@ echo "
         echo "
         <tr>
             <td>$no</td>
-            <td>$r[nopasien]</td>
+            <td>$r[norekam]</td>
             <td>$r[namapasien]</td>
             <td>$r[namadokter]</td>
             <td><a href='formupdaterekam.php?id=$r[norekam]'> Update </a> | <a href='hapusrekam.php?norekam=$r[norekam]'> Hapus </a></td>

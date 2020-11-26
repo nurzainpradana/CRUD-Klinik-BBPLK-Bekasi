@@ -16,6 +16,10 @@
             <td width="250dp"><input type="number" name="norekam" value="<?= $r['norekam'];?>"></td>
         </tr>
         <tr>
+            <th>Tanggal Rekam</th>
+            <td><input type="date" name="tgl_rekam" value="<?= $r['tgl_rekam']?>"></td>
+        </tr>
+        <tr>
             <th>Nama Pasien</th>
             <td>
             <select name="nopasien">
