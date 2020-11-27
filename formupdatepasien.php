@@ -2,7 +2,7 @@
     include('koneksi.php');
     include('atas.php');
     $nopasien = $_GET['id'];
-    $tampil = mysqli_query($koneksi, "SELECT * FROM pasien WHERE nopasien='$nopasien'");
+    $tampil = mysqli_query($koneksi, "SELECT * FROM pasien WHERE nopasien='$nopasien'  ");
     $no = 1;
     while ($r = mysqli_fetch_array($tampil)) { ?>
         

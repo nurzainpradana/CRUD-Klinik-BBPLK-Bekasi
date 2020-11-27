@@ -26,7 +26,7 @@
             <?php 
                 $datapasien = mysqli_query($koneksi, "SELECT * FROM pasien");      
                 while ($p = mysqli_fetch_array($datapasien)) { ?>
-                <option value="<?php $p['nopasien']?>" <?php echo ($r['nopasien'] == $p['nopasien']) ? "selected" : "" ; ?> > <?= $p['namapasien'] ?></option>
+                <option value="<?= $p['nopasien']?>" <?php echo ($r['nopasien'] == $p['nopasien']) ? "selected" : "" ; ?> > <?= $p['namapasien'] ?></option>
                 <?php } ?>
             </select>
             </td>
@@ -38,7 +38,7 @@
             <?php 
                 $datadokter = mysqli_query($koneksi, "SELECT * FROM dokter");      
                 while ($d = mysqli_fetch_array($datadokter)) { ?>
-                <option value="<?php $d['nodokter']?>" <?php echo ($r['nodokter'] == $d['nodokter']) ? "selected" : "" ; ?> > <?= $d['namadokter'] ?></option>
+                <option value="<?= $d['nodokter']?>" <?php echo ($r['nodokter'] == $d['nodokter']) ? "selected" : "" ; ?> > <?= $d['namadokter'] ?></option>
                 <?php } ?>
             </select>
             </td>
